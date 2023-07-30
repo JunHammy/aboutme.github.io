@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" type="text/css" href="css.css">
+</head>
+
+<body>
+
+    <!--Navigation-->
+
+    <div class="topnavbar" id="top">
+        <h1>Contact</h1>
+    </div>
+
+    <div class="navbar">
+        <a href="homepage.html">Home</a>
+
+        <div class="dropdown">
+            <button class="dropbtn">What I Do &#9660</button>
+            <div class="dropdown-content">
+                <a href="Drawing.html">Sketching</a>
+                <a href="Melomaniac.html">Melomaniac</a>
+            </div>
+        </div>
+
+        <div class="dropdown">
+            <button class="dropbtn">School Life &#9660</button>
+            <div class="dropdown-content">
+                <a href="Education.html">Education</a>
+                <a href="CCA.html">CCA</a>
+            </div>
+        </div>
+
+        <a href="Q&A.html" class="navactive">Contact</a>
+    </div>
+
+
+
+    <!--Form-->
+
+    <form class="contact" action="Displayformresults.html" method="get" id="formcontent">
+        <h1>Contact Form</h1>
+        <fieldset style="width: 500px">
+            <legend>Particulars</legend>
+            <input id="name" name="name" placeholder="Your name" type="text" required="" autofocus="">            
+            <input placeholder="Your Email Address" id="email" name="email" type="email" required="">
+            <input placeholder="Your Phone Number" title="8 Digit Phone Number" id="phone" name="phone" type="tel" pattern="[0-9]{8}" required="">
+        </fieldset>
+        <br>
+        <fieldset style="width:500px">
+            <legend>Preferred ways of contact:</legend>
+            <label>
+                <input type="checkbox" name="typeOfContacte" value="Email" id="typeOfContacte">Email
+            </label>
+            <label>
+                <input type="checkbox" name="typeOfContactp" value="Phone" id="typeOfContactp">Phone
+            </label>
+        </fieldset>
+        <br>
+        <fieldset style="width:500px">
+            <legend>Purpose of contact:</legend>
+            <label>
+                <input type="radio" id="purpose" name="purpose" value="Feedback" required="">Feedback
+            </label>
+            <label>
+                <input type="radio" id="purpose" name="purpose" value="Query">Queries
+            </label>
+            <textarea placeholder="Enter Your Message..." id="msg" name="msg" style="height: 150px;"></textarea>
+        </fieldset>
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+
+
+
+    <!--Footer-->
+
+    <div class="footer">
+        <div class="footercontent">
+            <h4>Follow Me</h4>
+            <div class="copyright">
+                <p>Copyright &copy; 2023 Joon Jun Han<br>All rights reserved</p>
+            </div>
+            <div class="jtt">
+                <p><a href="#top">Back to top</a>|<a href="Q&A.html">Contact</a></p>
+            </div>
+            <ul>
+                <li>
+                    <a href="https://www.instagram.com/imagorilla658?utm_source=qr" target="_blank">
+                        <img src="Instagram-Logo.wine.png" style="width: 51px; height: 34px;">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/JunHammy" target="_blank">
+                        <img src="Twitter-Logo.wine.png" style="width: 51px; height: 34px;">
+                    </a>
+                </li>
+                <li>
+                    <a href="http://tiktok.com/@piggypeggs" target="_blank">
+                        <img src="TikTok-Icon-White-Logo.wine.png" style="width: 51px; height: 34px;">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://discordapp.com/users/746368514922774650" target="_blank">
+                        <img src="Discord_(software)-Logo-Color-Logo.wine.png" style="width: 51px; height: 34px;">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+
+</html>
